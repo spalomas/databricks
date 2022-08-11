@@ -1,4 +1,9 @@
 # Databricks notebook source
+# MAGIC %sql
+# MAGIC select * from bronze.crimes_paloma
+
+# COMMAND ----------
+
 # File location and type
 
 name = 'paloma'
